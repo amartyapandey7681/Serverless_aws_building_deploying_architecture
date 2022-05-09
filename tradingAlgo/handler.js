@@ -18,7 +18,7 @@ app.use(express.json());
 // post api to store the mails and creds
 //send mails
 
-app.post("/mainApi", async function (req, res) {
+app.post("/getMails", async function (req, res) {
   const {  } = req.body;
  
   const params = {
@@ -49,5 +49,5 @@ app.use((req, res, next) => {
 // store in db
 // send mail
 // 
-
+//--> choose an algorithm >main thing<
 module.exports.handler = serverless(app);
