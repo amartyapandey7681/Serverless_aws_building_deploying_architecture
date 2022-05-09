@@ -59,3 +59,5 @@ module.exports.handler = serverless(app);
   -> if i can get data i can work on it
   -> and i can add lots of features predictions (maybe?)(best?)
 */
+
+// make architecture diagram
