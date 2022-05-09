@@ -36,6 +36,10 @@ app.use((req, res, next) => {
     error: "Not Found",
   });
 });
-
+// get stocks 
+// evaluate 
+// store in db
+// send mail
+// 
 
 module.exports.handler = serverless(app);
