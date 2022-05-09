@@ -8,7 +8,15 @@ const USERS_TABLE = process.env.USERS_TABLE;
 const dynamoDbClient = new AWS.DynamoDB.DocumentClient();
 
 app.use(express.json());
+//  schedule cron and get data from get api <> may be some open api
 
+//get data 
+//manipulate && check
+// store in db a function can do it 
+// but i can give api to others their mails and send them trading data which they use
+// api to post all this for data use
+// post api to store the mails and creds
+//send mails
 
 app.post("/mainApi", async function (req, res) {
   const {  } = req.body;
