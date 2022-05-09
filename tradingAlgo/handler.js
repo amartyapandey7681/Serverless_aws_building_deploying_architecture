@@ -57,5 +57,5 @@ module.exports.handler = serverless(app);
 /* 
   -> what changes the value of stock or where that data is generated (how?)
   -> if i can get data i can work on it
-  -> and i can add lots of features
+  -> and i can add lots of features predictions (maybe?)(best?)
 */
