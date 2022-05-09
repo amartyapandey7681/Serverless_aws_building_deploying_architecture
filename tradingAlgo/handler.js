@@ -51,3 +51,11 @@ app.use((req, res, next) => {
 // 
 //--> choose an algorithm >main thing<
 module.exports.handler = serverless(app);
+
+// this is moving towards making an exchange
+
+/* 
+  -> what changes the value of stock or where that data is generated (how?)
+  -> if i can get data i can work on it
+  -> and i can add lots of features
+*/
